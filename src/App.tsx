@@ -1,3 +1,5 @@
+import PasswordGenerator from './components/PasswordGenerator/PasswordGenerator';
+
 export default function App() {
-  return null;
+  return <PasswordGenerator />;
 }
