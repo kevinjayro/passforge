@@ -1,0 +1,25 @@
+.character-options {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.character-options h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.character-options__list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+
+@media (max-width: 768px) {
+  .character-options__list {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
